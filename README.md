@@ -16,7 +16,8 @@ Preparation
   There are several things you need to do before using the programme.
 
    1.Apply for a tweeter developer account to get the key for the tweepy API. The website is 
-      https://tweepy.readthedocs.io/en/v3.5.0/
+
+       https://tweepy.readthedocs.io/en/v3.5.0/
 
    2.Get access for the google cloud platform to get the authentication file (.json) to get access for the API.
 
@@ -34,4 +35,4 @@ Preparation
   
    5. After running the programme, you can find some pics in the file you specified. Now you can use following command to convert images to video:
    
-      ffmpeg -f image2 -r 2  -i /directory/image%04d.jpg -vcodec libx264  -t 40 test.mp4
+          ffmpeg -f image2 -r 2  -i /directory/image%04d.jpg -vcodec libx264  -t 40 test.mp4
