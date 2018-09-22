@@ -22,10 +22,10 @@ import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 
 #Twitter API credentials
-consumer_key = "frxPsqLOA8itHCihffT5bcezH"
-consumer_secret = "wt9cmEoEVlbMnHWCAyPLQmCe8nuzx3fe7AVVDHD8zbqLnp6OWs"
-access_key = "1040690616462725121-dHBkVcfHJl3egcoDMFqINj8fvzjSEe"
-access_secret = "CnztumLQUezuteatlJL1gVxUposRjFEeX7gd0GxoVd3V3"
+consumer_key = "#################"
+consumer_secret = "#################"
+access_key = "##################"
+access_secret = "###################"
 
 font = ImageFont.truetype('LiberationSans-Regular.ttf', 60)
 
@@ -89,9 +89,6 @@ def get_all_tweets(screen_name):
             draw = ImageDraw.Draw(im1)
             im1.save(path + 'image'+str('%04d'%count)+'.jpg')
 
-
-
-            
             
             count= count+1
         else:
