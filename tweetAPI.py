@@ -27,7 +27,8 @@ consumer_secret = "#################"
 access_key = "##################"
 access_secret = "###################"
 
-font = ImageFont.truetype('LiberationSans-Regular.ttf', 60)
+#use following command to chang the size of text displayed in the images
+font = ImageFont.truetype('LiberationSans-Regular.ttf', 20)
 
 def get_all_tweets(screen_name):
 
