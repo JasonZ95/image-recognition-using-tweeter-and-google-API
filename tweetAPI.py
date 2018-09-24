@@ -57,6 +57,7 @@ def get_all_tweets(screen_name):
     file = open('tweet.json', 'w')
     print ("Writing tweet objects to JSON please wait...")
     count=1
+    #change the path as your own directory
     path='/home/ece-student/Desktop/601hwk/img/'
     #extracting images in 200 tweets
     for status in alltweets:
