@@ -9,4 +9,4 @@ python tweetAPI.py
 #the directory shown is the directory of images
 #use -t to set length of your video
 #"test" is the name of the video
-ffmpeg -f image2 -r 2  -i /home/ece-student/Desktop/601hwk/img/image%04d.jpg -vcodec libx264  -t 40 test.mp4
+ffmpeg -y -r 2 -i /home/ece-student/Desktop/601hwk/img/image%04d.jpg -s 1024*540 test.mp4
