@@ -18,13 +18,13 @@ Preparation
 
   There are several things you need to do before using the programme.
 
-   *Apply for a tweeter developer account to get the key for the tweepy API. The website is 
+   * Apply for a tweeter developer account to get the key for the tweepy API. The website is 
 
      https://tweepy.readthedocs.io/en/v3.5.0/
 
-   *Get access for the google cloud platform to get the authentication file (.json) to get access for the API.
+   * Get access for the google cloud platform to get the authentication file (.json) to get access for the API.
 
-   *install relavent resourses(tweepy & PIL), using the following command:
+   * install relavent resourses(tweepy & PIL), using the following command:
    ```Bash
    pip install tweepy
    ```
@@ -32,7 +32,7 @@ Preparation
    pip install Pillow
    ```
   
-   *Before running the programme, you need to execute following command:
+   * Before running the programme, you need to execute following command:
    ```Bash
    export GOOGLE_APPLICATION_CREDENTIALS="/directory/googlekey.json"
    ```
@@ -47,18 +47,18 @@ Preparation
   
   In this part, I create two databases for users to store their search history. In this part the user can use the API to realize:
   
-  *Detail information of every transaction the user may run using the API
+  * Detail information of every transaction the user may run using the API
   
-  *Store all relevant information for everytime a user uses the application
+  * Store all relevant information for everytime a user uses the application
   
   By using search functions, users can also:
   
-  *Search for certain words and retrieve which user/session that has this work in it.  For example, search for ‘basketball”, and get results of which user had Basketball in their sessions.
+  * Search for certain words and retrieve which user/session that has this work in it.  For example, search for ‘basketball”, and get results of which user had Basketball in their sessions.
   
-  *Collective statistics about overall usage of the system:
+  * Collective statistics about overall usage of the system:
   
-    *Number of images per feed
+    * Number of images per feed
     
-    *Most popular descriptors
+    * Most popular descriptors
 
   
