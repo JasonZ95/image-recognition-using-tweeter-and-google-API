@@ -56,7 +56,7 @@ Preparation
   *Search for certain words and retrieve which user/session that has this work in it.  For example, search for ‘basketball”, and get results of which user had Basketball in their sessions.
   
   *Collective statistics about overall usage of the system:
-  >Number of images per feed
-  >Most popular descriptors
+    *Number of images per feed
+    *Most popular descriptors
 
   
